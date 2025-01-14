@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav>
+        <div class="left">
+            <a href="/">My Portfolio</a>
+        </div>
+        <div class="right">
+            
+            <a href="#skills">
+                <i class="fa-solid fa-code"></i>
+                <span>Skills</span></a>
+            
+            <a href="#projects">
+                <i class="fa-solid fa-pen"></i>
+                <span>Projects</span></a>
+            
+            <a href="#contacts">
+                <i class="fa-solid fa-address-book"></i>
+                <span>Contacts</span></a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-section">
+            <div class="text">
+            <h2>Hi, I am Swaty</h2>
+            <p>I'm a passionate software developer specializing in the MERN stack and backend technologies. With experience in building dynamic web applications, including projects like FamConnect and a Loan Prediction System, I enjoy solving complex problems and creating efficient solutions. Recently, I've been working as a developer at Outlier through Braintrust. I'm always eager to learn, grow, and contribute to impactful projects.</p>
+        
+
+        <div class="links">
+            <a href="https://github.com/Tuhfatu-Akhtary" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/tuhfatu-akhtary-188a35193/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:tuhfatu98@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+    
+        </div>
+    </div>
+        <div class="headshot">
+            <img src="images\hero-headshot.webp" alt="hero headshot">
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <h2>Skills</h2>
+        <div class="text">
+            Proficient in JavaScript, React, HTML, CSS. Experienced in API integration, backend development, data analysis, and crafting user-friendly web applications.
+
+        </div>
+
+        <div class="cells">
+            <div class="cell">
+                <img src="images\html-logo.webp" alt="HTML image">
+                <span>HTML</span>
+            </div>
+
+            <div class="cell">
+                <img src="images\css-logo.webp" alt="CSS image">
+                <span>CSS</span>
+            </div>
+
+            <div class="cell">
+                <img src="images\javascript-logo.webp" alt="JavaScript image">
+                <span>JavaScript</span>
+            </div>
+
+            <div class="cell">
+                <img src="images\react-logo.webp" alt="React image">
+                <span>React</span>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of my recent projects that showcase my skills.</p>
+        <div class="project-cards">
+          <div class="project-card">
+            <h3>FamConnect</h3>
+            <p>A family-based social media platform featuring dark mode, posts, reactions, authentication, chats, comments, user profiles, and family profiles.</p>
+            <div class="project-links">
+                <a href="https://github.com/Tuhfatu-Akhtary/FamConnect" class="btn">Code</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>SocioPath</h3>
+            <p>An ongoing social media platform with features like dark mode, posts, authentication, and reactions, built using the MERN stack.</p>
+            <div class="project-links">
+                
+                <a href="https://github.com/Tuhfatu-Akhtary/Sociopath" class="btn">Code</a>
+
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Inventory Management</h3>
+            <p>A team project to develop a desktop application for managing products, tracking damaged goods, and generating reports.</p>
+            <div class="project-links">
+                <a href="https://github.com/Tuhfatu-Akhtary/Inventory_Management" class="btn">Code</a>
+            
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <section class="contact-section" id="contacts">
+        <h2>Contact</h2>
+        <div class="group">
+            
+            <div class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo recusandae ipsam in similique, veniam architecto aut autem nemo suscipit soluta.
+            </div>
+
+            <form action="post">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Your Name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Your Email Address">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. All Rights Reserved</p>
+    </footer>
+    
+</main>
+    
+</body>
+
+</html>
